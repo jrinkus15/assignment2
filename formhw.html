@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<head>
+		
+		<link rel="stylesheet" type="text/css" href="CSS/form.css">
+	</head>
+	
+	<body>
+	<header>
+		<h1> Visit these great restaurants for sit down meals! </h1>
+		<nav>
+		<ul>
+			<li>  <a href="http://www.fuelandfuddle.com" target="_blank"> Fuel and Fuddle </a> </li>
+			<li> <a href="http://www.stackdburgers.com" target="_blank"> Stack'd </a> </li>
+			<li> <a href="http://www.unclesamssubs.com" target="_blank"> Uncle Sam's </a> </li>
+		</ul>
+		</nav>
+	</header>
+	<main>
+	
+  <form name="sub_form" action="subscribe.php" method="post">
+		<h1> Sandwich Shop Orders </h1>
+		<p> Name <input type="text" name="email"> </p>
+		<p> Phone number <input type="text" name="email"> </p>
+		<fieldset>
+		<legend> Bread </legend>
+		<br />
+		What type of bread do you want?
+			<br />
+			<input type="checkbox" name="bread" value="bread"/> White
+			<input type="checkbox" name="bread" value="bread"/> Wheat
+			<input type="checkbox" name="bread" value="bread"/> Rye
+			<input type="checkbox" name="bread" value="bread"/> Pumperknickel
+			<br />
+			<br />
+		Do you want your bread toasted?
+			
+			<br />
+			<input type="radio" name="toasted" value="1" /> Yes
+			<input type="radio" name="toasted" value="2" /> No
+			<br />
+		</fieldset>	
+		<p>
+		<fieldset>
+		<legend> Meat </legend>
+		<br />
+		What type of meat do you want on your sandwich?
+			<br />
+			<input type="checkbox" name="meat" value="Ham" /> Ham
+			<input type="checkbox" name="meat" value="Turkey" /> Turkey
+			<input type="checkbox" name="meat" value="Salami" /> Salami 								
+			<input type="checkbox" name="meat" value="Roast Beef" /> Roast Beef
+			<br />
+			<br />
+		</fieldset>
+		<fieldset>
+		<legend> Cheese </legend>
+		<br />
+		What kind of cheese do you want on your sandwich?
+			<br />
+			<input type="checkbox" name="cheese" value="Swiss" /> Swiss
+			<input type="checkbox" name="cheese" value="Cheddar" /> Cheddar
+			<input type="checkbox" name="cheese" value="Pepper Jack " /> Pepper Jack
+			<input type="checkbox" name="cheese" value="American" /> American
+			<input type="checkbox" name="cheese" value="N/A" /> None
+			<br />
+			<br />
+		</fieldset>
+		<fieldset>
+		<legend> Extras </legend>
+		<br />
+		What else would you like on your sandwich?
+			<br />
+			<input type="checkbox" name="extra" value="Lettuce" /> Lettuce
+			<input type="checkbox" name="extra" value="Tomato" /> Tomato
+			<input type="checkbox" name="extra" value="Mayo" /> Mayo
+			<input type="checkbox" name="extra" value="Spinach" /> Spinach 
+			<input type="checkbox" name="extra" value="None" /> None
+			<br />
+			<br />
+		</fieldset>
+		</p>
+	
+	<p>
+		What size do you want?
+		<select name="size">
+		<option> 6 inch </option>
+		<option> 9 inch  </option>
+		<option> footlong </option>
+		</select>
+		</p>
+		
+		
+	<input type="submit" name="submit" value="Submit Order" /> &nbsp; 
+	<input type="reset" value="Reset Order" /> 
+	
+  </form>
+  </main>
+  <footer>
+  <p> Visit our website for more information!
+  <br />
+  <a href="http://www.welovefood.com" target="_blank"> Information </a>
+  <br />
+  &copy;2017foodies
+  </footer>
+  </body>
+  
+</html>
